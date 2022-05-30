@@ -56,17 +56,6 @@
     color: #152c5b;
 }
 
-.brand-text-icon{
-    font-size: 26px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    color: $primary;
-    &:hover{
-        color: $primary;
-        text-decoration: none;
-    }
-}
-
 header{
     border-bottom: 1px solid #e9ecef;
     width: 100%;
@@ -97,4 +86,12 @@ header{
             }
         }
     }
+}
+
+.brand-text-icon{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: $primary;
+    text-decoration: none;
 }
