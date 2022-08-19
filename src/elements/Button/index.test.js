@@ -1,3 +1,6 @@
+/* eslint-disable testing-library/prefer-screen-queries */
+/* eslint-disable testing-library/no-node-access */
+/* eslint-disable testing-library/no-container */
 import React from 'react'
 import { render } from '@testing-library/react'
 import { BrowserRouter as Router} from 'react-router-dom'
